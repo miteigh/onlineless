@@ -1,0 +1,67 @@
+.RAMm {
+    position: absolute;
+    top: -110px;
+    right: 120px;
+    width: 370px;
+}
+
+@media (width < 1200px) {
+    img.RAMm,.hdd  {
+      display: none;
+    }
+  }
+
+.hdd {
+    width: 50%;
+}
+
+.H {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("hardware.png") fixed center center;
+    background-size: cover;
+    padding: 90px 0;
+}
+.B {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("assets/img/building.jpg") fixed center center;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.S {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("assets/img/data/binary.jpeg") fixed center center;
+    background-size: cover;
+    padding: 90px 0;
+}
+.F {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("assets/img/data/binary.jpeg") fixed center center;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.MC {
+    top: 10px;
+}
+
+.bf {
+    background: #47b;
+    border: 2px solid #47b;
+}
+
+@media screen and (width < 1000px) {
+    #header .L {
+        display: none;
+    }
+    #header .container a img {
+        width: 17%;
+        height: 17%;
+    }
+    #header .LH {
+        font-family: "Jost", sans-serif;
+        justify-content: center;
+    }
+}
+@media screen and (width > 1000px) {
+    #header .LH {
+        display: none;
+    }
+}
+
